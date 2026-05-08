@@ -1,0 +1,142 @@
+:root {
+    --sdlc-main-color: #9c0719;
+    --sdlc-gray: #a7a9ac;
+}
+
+/* #region Columns */
+.sdlc-col-10 {
+    width: 83.3333333333%!important
+}
+
+.sdlc-col-9 {
+    width: 75%!important
+}
+
+.sdlc-col-8 {
+    width: 66.6666666667%!important
+}
+
+.sdlc-col-7 {
+    width: 58.3333333333%!important
+}
+
+.sdlc-col-6 {
+    width: 50%!important
+}
+
+.sdlc-col-5 {
+    width: 41.6666666667%!important
+}
+
+.sdlc-col-4 {
+    width: 33.3333333333%!important
+}
+
+.sdlc-col-3 {
+    width: 25%!important
+}
+
+.sdlc-col-2 {
+    width: 16.6666666667%!important
+}
+
+.sdlc-col-1 {
+    width: 8.3333333333%!important
+}
+
+/* #endregion */
+/* #region TextAligmnent */
+
+.sdlc-text-left {
+    text-align: left!important
+}
+
+.sdlc-text-right {
+    text-align: right!important
+}
+
+.sdlc-text-center {
+    text-align: center!important
+}
+
+/* #endregion */
+
+/* #region StatBlock */
+
+.sdlc-spell-statblock {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.sdlc-spell-statblock hr {
+    align-self: stretch;
+    margin: 0;
+    height: 1px;
+    background-color: black;
+}
+
+hr.sdlc-red-hr {
+    background-color: var(--sdlc-main-color);
+}
+
+.sdlc-spell-statblock p {
+    margin: 5px 0;
+}
+
+.sdlc-spell-statblock-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    color: var(--sdlc-main-color);
+    padding: 2px 8px;
+    font-size: 15px;
+}
+
+.sdlc-creature-statblock {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.sdlc-creature-statblock-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    background-color: black;
+    color: white;
+    padding: 2px 8px;
+    margin-bottom: 1px;
+    font-size: 20px;
+}
+
+.sdlc-statblock-subtitle {
+    background-color: var(--sdlc-main-color);
+    color: white;
+    font-style: italic;
+    padding: 2px 8px;
+    font-size: 15px;
+}
+
+.sdlc-statblock-section-header {
+    background-color: var(--sdlc-gray);
+    padding: 2px 8px;
+}
+
+.sdlc-padding {
+    padding: 5px;
+}
+
+.sdlc-stat-line {
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+}
+
+.sdlc-stat-line > div::after {
+    content: "\a0";
+}
+
+/* #endregion */
